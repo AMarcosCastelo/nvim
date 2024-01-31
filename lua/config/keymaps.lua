@@ -28,3 +28,7 @@ keymap.set('n', '<C-l>', '<C-w>l', mapping_options)
 keymap.set('n', '<leader>sv', ':vsplit<CR>', mapping_options)
 keymap.set('n', '<leader>sh', ':split<CR>', mapping_options)
 keymap.set('n', '<leader>sm', ':MaximizerToggle<CR>', mapping_options)
+
+-- Comments
+vim.api.nvim_set_keymap('n', '<C-_>', 'gcc', { noremap = false })
+vim.api.nvim_set_keymap('v', '<C-_>', 'gcc', { noremap = false })

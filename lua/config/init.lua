@@ -38,6 +38,7 @@ local opts = {
 }
 
 require("lazy").setup("plugins", opts)
+require('Comment').setup()
 -- Set colorscheme
 vim.cmd "colorscheme tokyonight"
 
