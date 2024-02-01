@@ -1,9 +1,13 @@
 local keymap = vim.keymap
-
+local g = vim.g
 local mapping_options = {
 			noremap = true,
 			silent = true,
 		}
+
+g.mapleader = " "
+keymap.set('n', '<Space>', '')
+
 -- Directory Navigation
 keymap.set(
   'n',
