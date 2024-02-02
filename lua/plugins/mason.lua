@@ -13,10 +13,12 @@ return {
 		name = "mason-lspconfig",
 		opts = {
 			ensure_installed = externals.lsps,
+      automatic_installation = true,
 		},
 		config = function(_, opts)
 			require("mason-lspconfig").setup(opts)
 		end,
+    event = 'BufReadPre',
 		dependencies = {
 			"mason",
 		},

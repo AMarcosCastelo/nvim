@@ -19,6 +19,7 @@ opt.number = true
 opt.relativenumber = true
 opt.cmdheight = 1
 opt.scrolloff = 10
+opt.foldcolumn = '3'
 
 -- Behaviour
 opt.hidden = true
