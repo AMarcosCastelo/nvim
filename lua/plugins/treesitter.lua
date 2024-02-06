@@ -24,7 +24,6 @@ local config = function()
 			"lua",
 			"dockerfile",
 			"gitignore",
-			"python",
 			"toml",
 		},
 		auto_install = true,

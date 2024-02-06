@@ -1,6 +1,6 @@
 return {
 	"github/copilot.vim",
-	config = function()
+  config = function()
 		local g = vim.g
 		local keymap = vim.keymap
 
